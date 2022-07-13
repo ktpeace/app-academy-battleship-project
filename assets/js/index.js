@@ -1,11 +1,3 @@
-// IDEAL IMPROVEMENTS
-// disable player clicks until AI player moves (otherwise it is possible for player to make extra moves in between and comments on your hit are too quickly replaced with comments when AI hits)
-// make AI player keep clicking surrounding spot where a ship has been found and not fully uncovered
-// fix whatever is wrong with AA code where you can't change the ship array without the game acting weird
-// add ship placement stage
-// allow two human players
-// refactor messy code
-
 import Board from "./board.js";
 import { AiPlayer } from "./ai-player.js";
 
